@@ -1,0 +1,28 @@
+(+ 2 3)
+
+(+ 1 (* 5 3))
+
+(and (or true false) (and true true))
+
+(and (or true false) (and true false))
+
+(and (or (and true false) (or true false)) true)
+
+(if true '(2131 123123))
+
+(list '(213 21) '(432 195))
+
+(append (list 2321 '(21312))(append '(213 2) (list 214 213)))
+
+(if (or (and (or true true) true) false) '(2131 123123))
+
+
+(load "merhaba.txt")
+
+(set abi '(1 2 3))
+
+(set abi (list 232 '(3213 23)))
+
+(set abi (append (list 2321 '(21312))(append '(213 2) (list 214 213))))
+
+'(1 2 3 12 32 2)

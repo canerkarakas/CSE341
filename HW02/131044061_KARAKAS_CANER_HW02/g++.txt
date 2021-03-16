@@ -1,0 +1,11 @@
+;; helloworld.g++
+(deffun su1mup (x)
+(if (equal x 25625)
+1
+(+ x (sumup (* x 1)))
+)
+)
+
+(list 1 2 123)
+
+(liste 1 2 3)
